@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C15720D1BEEEDEA00647A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15720C1BEEEDEA00647A25 /* AppDelegate.swift */; };
+		5C15720F1BEEEDEA00647A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15720E1BEEEDEA00647A25 /* ViewController.swift */; };
+		5C1572121BEEEDEA00647A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1572101BEEEDEA00647A25 /* Main.storyboard */; };
+		5C1572141BEEEDEA00647A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1572131BEEEDEA00647A25 /* Assets.xcassets */; };
+		5C1572171BEEEDEA00647A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1572151BEEEDEA00647A25 /* LaunchScreen.storyboard */; };
+		5C1572221BEEEDEA00647A25 /* myTunes____Swift_RemixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1572211BEEEDEA00647A25 /* myTunes____Swift_RemixTests.swift */; };
+		5C15722D1BEEEDEA00647A25 /* myTunes____Swift_RemixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15722C1BEEEDEA00647A25 /* myTunes____Swift_RemixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C15721E1BEEEDEA00647A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1572011BEEEDEA00647A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1572081BEEEDEA00647A25;
+			remoteInfo = "myTunes -- Swift Remix";
+		};
+		5C1572291BEEEDEA00647A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1572011BEEEDEA00647A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1572081BEEEDEA00647A25;
+			remoteInfo = "myTunes -- Swift Remix";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1572091BEEEDEA00647A25 /* myTunes -- Swift Remix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myTunes -- Swift Remix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C15720C1BEEEDEA00647A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C15720E1BEEEDEA00647A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C1572111BEEEDEA00647A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1572131BEEEDEA00647A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1572161BEEEDEA00647A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1572181BEEEDEA00647A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C15721D1BEEEDEA00647A25 /* myTunes -- Swift RemixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myTunes -- Swift RemixTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1572211BEEEDEA00647A25 /* myTunes____Swift_RemixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "myTunes____Swift_RemixTests.swift"; sourceTree = "<group>"; };
+		5C1572231BEEEDEA00647A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1572281BEEEDEA00647A25 /* myTunes -- Swift RemixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myTunes -- Swift RemixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C15722C1BEEEDEA00647A25 /* myTunes____Swift_RemixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "myTunes____Swift_RemixUITests.swift"; sourceTree = "<group>"; };
+		5C15722E1BEEEDEA00647A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1572061BEEEDEA00647A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15721A1BEEEDEA00647A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1572251BEEEDEA00647A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1572001BEEEDEA00647A25 = {
+			isa = PBXGroup;
+			children = (
+				5C15720B1BEEEDEA00647A25 /* myTunes -- Swift Remix */,
+				5C1572201BEEEDEA00647A25 /* myTunes -- Swift RemixTests */,
+				5C15722B1BEEEDEA00647A25 /* myTunes -- Swift RemixUITests */,
+				5C15720A1BEEEDEA00647A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C15720A1BEEEDEA00647A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1572091BEEEDEA00647A25 /* myTunes -- Swift Remix.app */,
+				5C15721D1BEEEDEA00647A25 /* myTunes -- Swift RemixTests.xctest */,
+				5C1572281BEEEDEA00647A25 /* myTunes -- Swift RemixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C15720B1BEEEDEA00647A25 /* myTunes -- Swift Remix */ = {
+			isa = PBXGroup;
+			children = (
+				5C15720C1BEEEDEA00647A25 /* AppDelegate.swift */,
+				5C15720E1BEEEDEA00647A25 /* ViewController.swift */,
+				5C1572101BEEEDEA00647A25 /* Main.storyboard */,
+				5C1572131BEEEDEA00647A25 /* Assets.xcassets */,
+				5C1572151BEEEDEA00647A25 /* LaunchScreen.storyboard */,
+				5C1572181BEEEDEA00647A25 /* Info.plist */,
+			);
+			path = "myTunes -- Swift Remix";
+			sourceTree = "<group>";
+		};
+		5C1572201BEEEDEA00647A25 /* myTunes -- Swift RemixTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1572211BEEEDEA00647A25 /* myTunes____Swift_RemixTests.swift */,
+				5C1572231BEEEDEA00647A25 /* Info.plist */,
+			);
+			path = "myTunes -- Swift RemixTests";
+			sourceTree = "<group>";
+		};
+		5C15722B1BEEEDEA00647A25 /* myTunes -- Swift RemixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C15722C1BEEEDEA00647A25 /* myTunes____Swift_RemixUITests.swift */,
+				5C15722E1BEEEDEA00647A25 /* Info.plist */,
+			);
+			path = "myTunes -- Swift RemixUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1572081BEEEDEA00647A25 /* myTunes -- Swift Remix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1572311BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift Remix" */;
+			buildPhases = (
+				5C1572051BEEEDEA00647A25 /* Sources */,
+				5C1572061BEEEDEA00647A25 /* Frameworks */,
+				5C1572071BEEEDEA00647A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myTunes -- Swift Remix";
+			productName = "myTunes -- Swift Remix";
+			productReference = 5C1572091BEEEDEA00647A25 /* myTunes -- Swift Remix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C15721C1BEEEDEA00647A25 /* myTunes -- Swift RemixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1572341BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift RemixTests" */;
+			buildPhases = (
+				5C1572191BEEEDEA00647A25 /* Sources */,
+				5C15721A1BEEEDEA00647A25 /* Frameworks */,
+				5C15721B1BEEEDEA00647A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C15721F1BEEEDEA00647A25 /* PBXTargetDependency */,
+			);
+			name = "myTunes -- Swift RemixTests";
+			productName = "myTunes -- Swift RemixTests";
+			productReference = 5C15721D1BEEEDEA00647A25 /* myTunes -- Swift RemixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1572271BEEEDEA00647A25 /* myTunes -- Swift RemixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1572371BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift RemixUITests" */;
+			buildPhases = (
+				5C1572241BEEEDEA00647A25 /* Sources */,
+				5C1572251BEEEDEA00647A25 /* Frameworks */,
+				5C1572261BEEEDEA00647A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C15722A1BEEEDEA00647A25 /* PBXTargetDependency */,
+			);
+			name = "myTunes -- Swift RemixUITests";
+			productName = "myTunes -- Swift RemixUITests";
+			productReference = 5C1572281BEEEDEA00647A25 /* myTunes -- Swift RemixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1572011BEEEDEA00647A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cotten Blackwell";
+				TargetAttributes = {
+					5C1572081BEEEDEA00647A25 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5C15721C1BEEEDEA00647A25 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5C1572081BEEEDEA00647A25;
+					};
+					5C1572271BEEEDEA00647A25 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5C1572081BEEEDEA00647A25;
+					};
+				};
+			};
+			buildConfigurationList = 5C1572041BEEEDEA00647A25 /* Build configuration list for PBXProject "myTunes -- Swift Remix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1572001BEEEDEA00647A25;
+			productRefGroup = 5C15720A1BEEEDEA00647A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1572081BEEEDEA00647A25 /* myTunes -- Swift Remix */,
+				5C15721C1BEEEDEA00647A25 /* myTunes -- Swift RemixTests */,
+				5C1572271BEEEDEA00647A25 /* myTunes -- Swift RemixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1572071BEEEDEA00647A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1572171BEEEDEA00647A25 /* LaunchScreen.storyboard in Resources */,
+				5C1572141BEEEDEA00647A25 /* Assets.xcassets in Resources */,
+				5C1572121BEEEDEA00647A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15721B1BEEEDEA00647A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1572261BEEEDEA00647A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1572051BEEEDEA00647A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15720F1BEEEDEA00647A25 /* ViewController.swift in Sources */,
+				5C15720D1BEEEDEA00647A25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1572191BEEEDEA00647A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1572221BEEEDEA00647A25 /* myTunes____Swift_RemixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1572241BEEEDEA00647A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15722D1BEEEDEA00647A25 /* myTunes____Swift_RemixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C15721F1BEEEDEA00647A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1572081BEEEDEA00647A25 /* myTunes -- Swift Remix */;
+			targetProxy = 5C15721E1BEEEDEA00647A25 /* PBXContainerItemProxy */;
+		};
+		5C15722A1BEEEDEA00647A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1572081BEEEDEA00647A25 /* myTunes -- Swift Remix */;
+			targetProxy = 5C1572291BEEEDEA00647A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1572101BEEEDEA00647A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1572111BEEEDEA00647A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1572151BEEEDEA00647A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1572161BEEEDEA00647A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C15722F1BEEEDEA00647A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C1572301BEEEDEA00647A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1572321BEEEDEA00647A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "myTunes -- Swift Remix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-Remix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C1572331BEEEDEA00647A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "myTunes -- Swift Remix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-Remix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C1572351BEEEDEA00647A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "myTunes -- Swift RemixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-RemixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTunes -- Swift Remix.app/myTunes -- Swift Remix";
+			};
+			name = Debug;
+		};
+		5C1572361BEEEDEA00647A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "myTunes -- Swift RemixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-RemixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTunes -- Swift Remix.app/myTunes -- Swift Remix";
+			};
+			name = Release;
+		};
+		5C1572381BEEEDEA00647A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "myTunes -- Swift RemixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-RemixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "myTunes -- Swift Remix";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C1572391BEEEDEA00647A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "myTunes -- Swift RemixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.royallymore.myTunes----Swift-RemixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "myTunes -- Swift Remix";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1572041BEEEDEA00647A25 /* Build configuration list for PBXProject "myTunes -- Swift Remix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15722F1BEEEDEA00647A25 /* Debug */,
+				5C1572301BEEEDEA00647A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1572311BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift Remix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1572321BEEEDEA00647A25 /* Debug */,
+				5C1572331BEEEDEA00647A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1572341BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift RemixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1572351BEEEDEA00647A25 /* Debug */,
+				5C1572361BEEEDEA00647A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1572371BEEEDEA00647A25 /* Build configuration list for PBXNativeTarget "myTunes -- Swift RemixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1572381BEEEDEA00647A25 /* Debug */,
+				5C1572391BEEEDEA00647A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1572011BEEEDEA00647A25 /* Project object */;
+}
